@@ -92,10 +92,13 @@ void loop()
   if (currentMillis - lastPrintMillis > INTERVAL_MS_PRINT) {
     Serial.print("TEMP:\t");
     Serial.print(normalized.temperature, 2);
-    Serial.print("\xC2\xB0""C"); //Print degree symbol
+    Serial.print("\xC2\xB0"); //Print degree symbol
+    Serial.print("C");
     Serial.println();
 
-    Serial.print("GYR (\xC2\xB0""/s):\t"); //Print degree symbol
+    Serial.print("GYR (");
+    Serial.print("\xC2\xB0"); //Print degree symbol
+    Serial.print("/s):\t");
     Serial.print(normalized.gyroscope.x, 3);
     Serial.print("\t\t");
     Serial.print(normalized.gyroscope.y, 3);
@@ -111,7 +114,9 @@ void loop()
     Serial.print(normalized.accelerometer.z, 3);
     Serial.println();
 
-    Serial.print("MAG (\xce\xbc""T):\t");
+    Serial.print("MAG (");
+    Serial.print("\xce\xbc"); //Print micro symbol
+    Serial.print("T):\t");
     Serial.print(normalized.magnetometer.x, 3);
     Serial.print("\t\t");
     Serial.print(normalized.magnetometer.y, 3);
