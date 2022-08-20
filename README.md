@@ -8,7 +8,6 @@ Internally it includes the MPU-6500, which contains a 3-axis gyroscope plus a 3-
 │  └ raw  
 ├ lib  
 └ schema  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└ part  
 
 ## Documentation
 You'll find instructions and full documentation on [HiBit](https://www.hibit.dev/posts/36/reading-mpu9250-sensors-with-arduino). It includes detailed info on how to wire and use the module.
