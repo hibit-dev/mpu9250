@@ -1,16 +1,19 @@
 # MPU9250
-MPU-9250 is one of the most advanced combined accelerometer, gyroscope and compass small size sensors currently available. It replaces the popular MPU-9150 lowering the power consumption, improving gyro noise and compass full scale range performance. It has many advanced features, including low pass filtering, motion detection and even a programmable specialized processor.  
+MPU-9250 is one of the most advanced combined accelerometer, gyroscope and compass small size sensors currently available. It replaces the popular MPU-9150 lowering the power consumption, improving gyro noise and compass full scale range performance. It has many advanced features, including low pass filtering, motion detection and even a programmable specialized processor.
 
-Internally it includes the MPU-6500, which contains a 3-axis gyroscope plus a 3-axis accelerometer, and the AK8963, the market leading 3-axis digital compass. The MPU-9250 uses 16-bit analog-to-digital converters (ADCs) for digitizing all 9 axes.  
-  
+Internally it includes the MPU-6500, which contains a 3-axis gyroscope plus a 3-axis accelerometer, and the AK8963, the market leading 3-axis digital compass. The MPU-9250 uses 16-bit analog-to-digital converters (ADCs) for digitizing all 9 axes.
+
 ├ doc  
 ├ src  
-│  └ raw  
+│  ├ raw  
+│  └ complementary_filter  
 ├ lib  
-└ schema  
+└ schema
 
 ## Documentation
-You'll find instructions and full documentation on [HiBit](https://www.hibit.dev/posts/36/reading-mpu9250-sensors-with-arduino). It includes detailed info on how to wire and use the module.
+You'll find instructions and full documentation on [HiBit](https://www.hibit.dev/posts/36/reading-mpu9250-sensors-with-arduino). It includes detailed info on how to wire and use the module.  
+Additional information and usages are available and can be found here:
+- [Complementary filter and relative orientation with MPU9250](https://www.hibit.dev/posts/67/complementary-filter-and-relative-orientation-with-mpu9250)
 
 ## Security
 If you discover any security related issues, please email security@hibit.dev instead of using the issue tracker.
@@ -20,3 +23,4 @@ HiBit is a platform made by and for enthusiasts of the IT world. [On our website
 
 ## License
 The MIT License (MIT). Please see [License File](LICENSE) for more information.
+
