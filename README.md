@@ -11,8 +11,9 @@ Internally it includes the MPU-6500, which contains a 3-axis gyroscope plus a 3-
 └ schema
 
 ## Documentation
-You'll find instructions and full documentation on [HiBit](https://www.hibit.dev/posts/36/reading-mpu9250-sensors-with-arduino). It includes detailed info on how to wire and use the module.  
-Additional information and usages are available and can be found here:
+Instructions and full documentation are always available on [HiBit](https://www.hibit.dev).  
+Additional information about this repository can be found here:
+- [Reading MPU9250 sensors with Arduino](https://www.hibit.dev/posts/36/reading-mpu9250-sensors-with-arduino)
 - [Complementary filter and relative orientation with MPU9250](https://www.hibit.dev/posts/67/complementary-filter-and-relative-orientation-with-mpu9250)
 
 ## Security
