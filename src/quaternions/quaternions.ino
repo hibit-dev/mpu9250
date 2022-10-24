@@ -6,7 +6,7 @@
 
 #define MPU9250_IMU_ADDRESS 0x68
 
-#define MAGNETIC_DECLINATION -1.63 // To be defined by user
+#define MAGNETIC_DECLINATION 1.63 // To be defined by user
 #define INTERVAL_MS_PRINT 1000
 
 MPU9250 mpu;
