@@ -15,6 +15,7 @@ Instructions and full documentation are always available on [HiBit](https://www.
 Additional information about this repository can be found here:
 - [Reading MPU9250 sensors with Arduino](https://www.hibit.dev/posts/36/reading-mpu9250-sensors-with-arduino)
 - [Complementary filter and relative orientation with MPU9250](https://www.hibit.dev/posts/67/complementary-filter-and-relative-orientation-with-mpu9250)
+- [Getting real-time position using MPU9250](https://www.hibit.dev/posts/73/getting-real-time-position-using-mpu9250)
 
 ## Security
 If you discover any security related issues, please email security@hibit.dev instead of using the issue tracker.
