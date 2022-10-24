@@ -6,7 +6,8 @@ Internally it includes the MPU-6500, which contains a 3-axis gyroscope plus a 3-
 ├ doc  
 ├ src  
 │  ├ raw  
-│  └ complementary_filter  
+│  ├ complementary_filter  
+│  └ quaternions  
 ├ lib  
 └ schema
 
